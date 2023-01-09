@@ -1,0 +1,213 @@
+
+
+.header{
+  background-color: rgb(5, 182, 105);
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(19, 66, 19);
+  width: 100%;
+  /*width: 25%;*/
+  font-size: 20;
+  /*position: absolute;*/
+}
+
+
+li a {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  border: 3px solid rgb(5,182,105);
+}
+
+
+li a:hover:not(.active) {
+  border-color: white;
+  border-right: 15px solid white;
+  border-left: 15px solid white;
+}
+
+.active {
+  border-color: white;
+  border-right: 15px solid white;
+  border-left: 15px solid white;
+}
+
+
+.column{
+  float: left;
+}
+
+.column.nav{
+  width: 25%;
+}
+
+
+.column.left{
+  text-align: left;
+  margin-top: 30px;
+  padding: 5px;
+  border: 3px solid white;
+  width: 55%;
+  
+}
+.column.right{
+  width: 0%;
+}
+
+.column.rightside{
+  width: 10%;
+}
+.column.wire1{
+  margin-top: 60px;
+  padding-top: 0px;
+  height: 30px;
+  width: 5%;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+.column.wire2{
+  margin-top: 60px;
+  padding-top: 0px;
+  height: 30px;
+  width: 5%;
+  border-top: 5px solid white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(19,66,19);
+  height: 50px;
+  
+}
+h2 a{
+  margin: 0;
+  padding: 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  border:3px solid rgb(5, 182, 105);
+}
+h2 a:hover{
+  border: 3px solid white;
+  color: white;
+  background-color: rgb(5, 182, 105);
+}
+h2 reg{
+  margin: 0;
+  padding: 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  border:3px solid rgb(5, 182, 105);
+}
+
+
+p {
+  border: 3px solid rgb(5, 182, 105);;
+  border-top: 10px solid rgb(5, 182, 105);
+  margin: = 0;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(19, 66, 19);
+  font-weight: normal;
+}
+
+p a{
+  color: black;
+}
+
+/*picture*/
+.mustang{
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("images/mustangphoto.jpg");
+}
+
+.robot{
+  background-origin: ;
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/Robot.jpg);
+  margin-bottom: 10px;
+}
+
+.mugshot{
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/mugshot.jpeg);
+  margin-bottom: 10px;
+  margin-top: 80px;
+  background-origin: inherit;
+}
+
+.engine{
+  width: 100%;
+  height: 75%;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/engine.jpeg);
+  margin-bottom: 10px;
+}
+
+.disassemble{
+  width: 100%;
+  height: 75%;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/disassemble.jpeg);
+  margin-bottom: 10px;
+}
+
+.logo{
+  background-origin: ;
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(images/BoyScoutsLogo.png);
+  margin-bottom: 10px;
+}
+
+body{
+  background-color: rgb(19,66,19);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: rgb(5, 182, 105);;
+  text-align: center;
+}
